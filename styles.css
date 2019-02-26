@@ -1,0 +1,43 @@
+/* Tags */
+
+h1, h2, h3, h4, h5, h6  {
+  font-family: 'Passion One', cursive;
+}
+
+p {
+  font-family: 'Varela', sans-serif;
+}
+
+body {
+  background-color: #6D7A82;
+  text-align: center;
+}
+
+/* Classes */
+
+/* Background color buttons */
+
+.back-red{
+  background-color: #F75853;
+  height: 50px;
+  width: 50px;
+}
+.back-blue {
+  background-color: #38A9F0;
+  height: 50px;
+  width: 50px;
+}
+.back-green {
+  background-color: #AAF076;
+  height: 50px;
+  width: 50px;
+}
+.back-yellow{
+  background-color: #FCF360;
+  height: 50px;
+  width: 50px;
+}
+
+.color {
+  margin: 100px 50px 100px;
+}
