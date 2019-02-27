@@ -1,20 +1,30 @@
 var enterButton = document.getElementById('submit');
 var userName = document.getElementById('user-name');
-var playButton = document.querySelectorAll("color");
-var clickedId = document.querySelectorAll("id"); //ID
+var playButton = document.querySelectorAll("button");
+
+
+//
+// playButton.addEventListener("click", function() {
+//
+//   makeSound();
+//   // Messups
+//   // var buttonInnerHTML = this.innerHTML;
+//   // makeSound(event.playButtons);
+//   // makeSound(event.playButton);
+// });
+
+
+
+var clickedId = document.addEventListener("click", function(clickedId) {
+
+  makeSound();
+
+});
+
+
+//ID
 // For the above event, I have to get the browser to
 //figure out what ID was clicked in order for it to play.
-
-
-  playButton.addEventListener("click", function() {
-
-    makeSound();
-    // Messups
-    // var buttonInnerHTML = this.innerHTML;
-    // makeSound(event.playButtons);
-    // makeSound(event.playButton);
-  });
-
 
 
 function makeSound(clickedId) {
