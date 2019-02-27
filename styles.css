@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6  {
   font-family: 'Passion One', cursive;
 }
 
-p {
+p, ul, li {
   font-family: 'Varela', sans-serif;
 }
 
@@ -40,4 +40,7 @@ body {
 
 .color {
   margin: 100px 50px 100px;
+}
+button:hover {
+  background-color: #C8C7C5;
 }
