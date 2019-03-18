@@ -1,16 +1,9 @@
-      //  Fix these later for Name input
-
+//  Fix these later for Name input
 // var enterButton = document.getElementById('submit');
 // var userName = document.getElementById('user-name');
-
-
 var playButton = document.querySelectorAll("button");
-
-
 var clickedId = document.addEventListener("click", function(playButton) {
-
   makeSound();
-
 });
 //ID
 // For the above event, I have to get the browser to
